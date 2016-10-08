@@ -1,0 +1,106 @@
+@font-face {
+    font-family: content-head;
+    src: url(../fonts/PlayfairDisplay-BoldItalic.otf) format("opentype");
+}
+
+.blockcont {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5em;
+}
+.title {
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 3.1em;
+  text-align: center;
+  background: #252839;
+  display: inline-block;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 0.35em;
+  padding: 0.1em 0.25em 0.1em 0.25em;
+}
+
+.message {
+  font-family: Lato;
+  font-size: 1.5em;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.large-header {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+	background-image: url('../img/toronto_bg_blur-min.jpg');
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 70%;
+	left: 50%;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+.scroll-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	top: 96%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.fill-space {
+  height:900px;
+}
+
+.line {
+  display:block;
+  border:none;
+  color:white;
+  height:2px;
+  width: 100%;
+  background:black;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 900, from(#000), to(#fff));
+}
+
+.line2 {
+  display:block;
+  border:none;
+  color:white;
+  height:2px;
+  width: 100%;
+  background:black;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 900, from(#000), to(#fff));
+}
+
+.dev-updates {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#content-head {
+	font-family: 'content-head';
+	text-align: center;
+
+}
+@media only screen and (max-width : 768px) {
+	.container .main-title{
+		font-size: 3em;
+	}
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Prashakar Prabagaran</title>
+		<meta name="description" content="Prashakar Prabagaran personal website/portfolio" />
+		<meta name="author" content="Prashakar Prabagaran" />
+
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,900,300' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/nav-bar.css" />
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+<!--		<script type-"text/javascript" src="js/jquery.min.js"></script -->
+		<script type-"text/javascript" src="js/nav-bar.js"></script>
+		<script type="text/javascript" src="js/scroll.js"></script>
+		<script type="text/javascript" src="js/main_bg.js" async></script>
+		<script type="text/javascript" src="js/analytics_main.js" async></script>
+	</head>
+	<body>
+		<div id="nav-scroll" style="position:fixed; top:42px; z-index: 6;"></div>
+
+		<div class="container" id="page-top">
+			<div class="large-header" id="large-header">
+				<video autoplay loop>
+				    <source src="img/toronto_bg.mp4" type="video/mp4">
+				</video>
+				<h1 class="main-title">Prashakar <span style="font-weight: 200;">Prabagaran</span></h1>
+				<p class="scroll-title" style="top:93.2%;">CAME HERE FOR MORE?</p>
+				<a class="scroll-title" style="font-family: Lato; font-weight: 700;" href="#page-start">SCROLL DOWN</a>
+
+			</div>
+
+                        <div id="page-start"></div>
+
+			<nav id="menu">
+				<div id='cssmenu'>
+					<ul>
+						<li style="float: left;" class='logo'><a href="#page-start" style="top:-3px;"><img class="nav-logo" src="img/prash_logo_sm.png"></a></li>
+						<li style="display: inline-block;"><a href='contact.php'>Contact</a></li>
+						<li style="display: inline-block;" class="logo"><a></a></li>
+		                <li style="float: right;"><a href='#'>Resume</a></li>
+						<li style="float: right;"><a href='http://www.linkedin.com/in/prashakar'>LinkedIn</a></li>
+						<li style="float: right;"><a href='http://www.youtube.com/playinfinite'>Youtube</a></li>
+						<li style="float: right;"><a href='http://www.instagram.com/viewsfromthe_/'>Instagram</a></li>
+						<li style="float: right;"><a href='#'>Current Projects</a></li>
+						<li style="float: right;"><a href='#'>What I Do</a></li>
+						<li style="float: right;"><a href='#'>About Me</a></li>
+					</ul>
+				</div>
+				<span class="line"></span>
+			</nav>
+
+			<div id="space"></div>
+
+<!--             <div class="fill-space"></div>
+ -->
+ 			<br><br>
+ 			<div class="dev-updates">
+	 			<h2><b>Page in development!</b></h2>
+	 			<h3><i>Instagram, YouTube & LinkedIn links now live</i></h3>
+ 			</div>
+		</div>
+
+		<div class="fill-space" id="fill-space"></div>
+
+	</body>
+
+	<footer>
+		<div class="center">
+		<p style="padding: 0; margin: 0; margin-bottom: 4px;">Had enough of me?</p>
+
+		<a id="nav" style="font-family: Lato; font-weight: 700;" href="#page-top">SCROLL TO THE TOP</a>
+		<br><br>
+		<i><font size="2px;">Designed & developed by:</font></i><br>Prashakar Prabagaran
+		</div>
+	</footer>
+
+	<script>
+		
+		var stickyHeaderTop = $('#menu').offset().top;
+		$(window).scroll(function(){
+               		if( $(window).scrollTop() > stickyHeaderTop ) {
+                	        $('#menu').css({position: 'fixed', top: '0px', width:'100%'});
+                	        $('#space').css('display', 'block');
+                	} else {
+                	        $('#menu').css({position: 'static', top: '0px'});
+                	        $('#space').css('display', 'none');
+                	}
+		});
+	</script>	
+
+</html>
