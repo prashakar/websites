@@ -1,9 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 #space {
   display: none;
-  height: 50px;
+  height: 55px;
 }
 #menu {
+  position: 'fixed';
+  top: '0px';
+  width: '100%';
   z-index: 100;
 }
 #cssmenu,
@@ -38,7 +41,7 @@
   width: auto;
   font-family: 'Open Sans', sans-serif;
   line-height: 1;
-  background: #252839;
+  background: #1b1d2a;
   height: 55px;
   z-index: 99;
 }
@@ -56,7 +59,7 @@
   transition: all 0.25s ease-out;
 }
 #cssmenu > ul > li.logo {
-  background: #252839;
+  background: #1b1d2a;
   height: 55px;
 }
 #cssmenu > ul > li {

@@ -10,6 +10,9 @@ body {
 	font-family: 'Raleway', Calibri, Arial, sans-serif;
 }
 
+section {
+	background-color: #1b1d2a;
+}
 a, button {
 	outline: none;
 }
