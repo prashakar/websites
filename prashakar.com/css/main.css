@@ -20,6 +20,7 @@ a, button {
 a {
 	color: #566473;
 	text-decoration: none;
+	outline: 0 !important;
 }
 
 a:hover, a:focus {

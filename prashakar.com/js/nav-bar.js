@@ -1,7 +1,7 @@
 (function($) {
 
   $.fn.menumaker = function(options) {
-      
+
       var cssmenu = $(this), settings = $.extend({
         title: "Menu",
         format: "dropdown",
@@ -13,7 +13,7 @@
         $(this).find("#menu-button").on('click', function(){
           $(this).toggleClass('menu-opened');
           var mainmenu = $(this).next('ul');
-          if (mainmenu.hasClass('open')) { 
+          if (mainmenu.hasClass('open')) {
             mainmenu.hide().removeClass('open');
           }
           else {
@@ -97,7 +97,7 @@ $("#cssmenu > ul > li").hover(function() {
   linePosition = activeElement.position().left;
   menuLine.css("width", lineWidth);
   menuLine.css("left", linePosition);
-}, 
+},
 function() {
   menuLine.css("left", defaultPosition);
   menuLine.css("width", defaultWidth);
@@ -105,6 +105,39 @@ function() {
 
 });
 
+
+});
+$(document).scroll(function() {
+var foundActive = false, activeElement, linePosition = 0, menuLine = $("#cssmenu #menu-line"), lineWidth, defaultPosition, defaultWidth;
+
+$("#cssmenu > ul > li").each(function() {
+  if ($(this).hasClass('active')) {
+    activeElement = $(this);
+    foundActive = true;
+  }
+});
+if (foundActive === false) {
+  activeElement = $("#cssmenu > ul > li").first();
+}
+
+defaultWidth = lineWidth = activeElement.width();
+
+defaultPosition = linePosition = activeElement.position().left;
+
+menuLine.css("width", lineWidth);
+menuLine.css("left", linePosition);
+
+$("#cssmenu > ul > li").hover(function() {
+  activeElement = $(this);
+  lineWidth = activeElement.width();
+  linePosition = activeElement.position().left;
+  menuLine.css("width", lineWidth);
+  menuLine.css("left", linePosition);
+},
+function() {
+  menuLine.css("left", defaultPosition).delay(1000);
+  menuLine.css("width", defaultWidth).delay(1000);
+});
 
 });
 })(jQuery);

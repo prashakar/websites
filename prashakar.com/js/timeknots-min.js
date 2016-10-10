@@ -2,7 +2,7 @@ var TimeKnots = {
   draw: function(id, events, options){
     var cfg = {
       width: 600,
-      height: 200,
+      height: 100,
       radius: 10,
       lineWidth: 4,
       color: "#999",
@@ -37,7 +37,7 @@ var TimeKnots = {
     .style("padding", "5px 10px 5px 10px")
     .style("-moz-border-radius", "3px 3px")
     .style("border-radius", "3px 3px");
-    var svg = d3.select(id).append('svg').attr("width", cfg.width).attr("height", cfg.height);
+    var svg = d3.select(id).append('svg').attr("width", cfg.width).attr("height", cfg.height).style("margin-top", "20px");
     //Calculate times in terms of timestamps
     if(!cfg.dateDimension){
       var timestamps = events.map(function(d){return  d.value});//new Date(d.date).getTime()});
@@ -125,19 +125,7 @@ var TimeKnots = {
     .append("circle")
     .attr("class", "timeline-event")
     .attr("r", function(d){if(d.radius != undefined){return d.radius} return cfg.radius})
-    .style("stroke", function(d){
-                    if(d.color != undefined){
-                      return d.color
-                    }
-                    if(d.series != undefined){
-                      if(series.indexOf(d.series) < 0){
-                        series.push(d.series);
-                      }
-                      console.log(d.series, series, series.indexOf(d.series));
-                      return cfg.seriesColor(series.indexOf(d.series));
-                    }
-                    return cfg.color}
-    )
+    .style("stroke","#f2b632")
     .style("stroke-width", function(d){if(d.lineWidth != undefined){return d.lineWidth} return cfg.lineWidth})
     .style("fill", function(d){if(d.background != undefined){return d.background} return cfg.background})
     .attr("cy", function(d){
@@ -179,19 +167,7 @@ var TimeKnots = {
       .style("opacity", .9);
     })
     .on("mouseout", function(){
-          svg.select("circle").style("stroke", function(d){
-                          if(d.color != undefined){
-                            return d.color
-                          }
-                          if(d.series != undefined){
-                            if(series.indexOf(d.series) < 0){
-                              series.push(d.series);
-                            }
-                            console.log(d.series, series, series.indexOf(d.series));
-                            return cfg.seriesColor(series.indexOf(d.series));
-                          }
-                          return cfg.color}
-          );
+          svg.selectAll("circle").style("stroke","#f2b632");
         d3.select(this)
         .style("fill", function(d){if(d.background != undefined){return d.background} return cfg.background}).transition()
         .duration(100).attr("r", function(d){if(d.radius != undefined){return d.radius} return cfg.radius});
@@ -211,7 +187,7 @@ var TimeKnots = {
         var endString = maxValue;
       }
       svg.append("text")
-         .text(startString).style("font-size", "70%").style("font-family", "Lato")
+         .text("2012").style("font-size", "70%").style("font-family", "Lato")
          .attr("x", function(d){if(cfg.horizontalLayout){return d3.max([0, (margin-this.getBBox().width/2)])} return Math.floor(this.getBBox().width/2)})
          .attr("y", function(d){if(cfg.horizontalLayout){return Math.floor(cfg.height/2+(margin+this.getBBox().height))}return margin+this.getBBox().height/2});
 

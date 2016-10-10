@@ -29,7 +29,8 @@
 	text-align: center;
 	cursor: pointer;
   border: 5px;
-  border-color: #fff;
+  border-color: #f2b632;
+  border-style: solid;
 }
 
 .grid figure img {
@@ -101,7 +102,7 @@ figure.effect img {
 }
 
 figure.effect:hover img {
-	opacity: 0.5;
+	opacity: 0.1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 
