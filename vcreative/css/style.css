@@ -1,0 +1,1133 @@
+.navbar-default .navbar-collapse, .navbar-default .navbar-form .navright{
+    border-color: #e7e7e7;
+    float: right;
+	margin-top:25px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-brand img{
+	width: 20em;
+}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #7d3f98;
+	transition:0.5s all ease;
+	-webkit-transition:0.5s all ease;
+	-moz-transition:0.5s all ease;
+	-o-transition:0.5s all ease;
+	-ms-transition:0.5s all ease;
+	cursor:pointer;
+}
+.navbar-default .navbar-nav>li>h1 {
+    color: #7d3f98;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>h1{
+	color: #42CDEB;
+    background-color: transparent;
+	transition:0.5s all ease;
+	-webkit-transition:0.5s all ease;
+	-moz-transition:0.5s all ease;
+	-o-transition:0.5s all ease;
+	-ms-transition:0.5s all ease;
+	cursor:pointer;
+	background:#42CDEB;
+	padding:10px 15px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+	transition:0.5s all ease;
+	-webkit-transition:0.5s all ease;
+	-moz-transition:0.5s all ease;
+	-o-transition:0.5s all ease;
+	-ms-transition:0.5s all ease;
+	cursor:pointer;
+	background:#42CDEB;
+	padding:10px 15px;
+
+}
+
+.content{
+	width:100%;
+	background:#fff;
+}
+.container2{
+	width:100%;
+	background:#000;
+}
+.container3{
+	width:100%;
+	background:#555;
+}
+.about {
+    margin-top: 1em;
+    padding: 17px;
+}
+.about h3{
+	color:#000;
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 3.2em;
+	margin-top:0em;
+}
+.about p{
+	color:#000;
+	text-align:center;
+	font-size:1.25em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	padding:4.8em 0;
+	line-height: 1.9;
+}
+
+.about a{
+	background:#7d3f98;
+	margin:0 auto ;
+	color:#000;
+	text-align:center;
+	padding: 15px 30px;
+    font-size: 1.5em;
+	display:block;
+	width:20%;
+	margin-bottom:1.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	transition:0.5s all ease;
+	-webkit-transition:0.5s all ease;
+	-moz-transition:0.5s all ease;
+	-o-transition:0.5s all ease;
+	-ms-transition:0.5s all ease;
+	cursor:pointer;
+}
+.services {
+    margin-top: 1em;
+    padding: 17px;
+}
+.services h3{
+	color:#000;
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 3.2em;
+	margin-top:0.2em;
+	margin-bottom: 1em;
+}
+.services p{
+	color:#000;
+	text-align:center;
+	font-size:1.2em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding:2em 0;
+	line-height: 1.9;
+}
+
+.services a{
+	background:#7d3f98;
+	margin:0 auto ;
+	color:#000;
+	text-align:center;
+	padding: 15px 30px;
+    font-size: 1.5em;
+	display:block;
+	width:20%;
+	margin-bottom:1.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	transition:0.5s all ease;
+	-webkit-transition:0.5s all ease;
+	-moz-transition:0.5s all ease;
+	-o-transition:0.5s all ease;
+	-ms-transition:0.5s all ease;
+	cursor:pointer;
+}
+.end {
+    margin-top: 1em;
+    padding: 17px;
+    height: 26em;
+}
+.end h3{
+	color:#fff;
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 3.2em;
+	margin-top:0em;
+}
+.end p{
+	color:#fff;
+	text-align:center;
+	font-size:1.2em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	line-height: 1.9;
+}
+
+.end a{
+	background:#fff;
+	margin:0 auto ;
+	color:#fff;
+	text-align:center;
+	padding: 15px 30px;
+    font-size: 1.5em;
+	display:block;
+	width:20%;
+	margin-bottom:1.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	transition:0.5s all ease;
+	-webkit-transition:0.5s all ease;
+	-moz-transition:0.5s all ease;
+	-o-transition:0.5s all ease;
+	-ms-transition:0.5s all ease;
+	cursor:pointer;
+}
+
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
+	padding-top:0px;
+	padding-bottom:0px;
+	
+} 
+.grid {
+	width: 65%;
+	padding-top: 5px;
+	margin: 0 auto;
+}
+.grid h3{
+	color:#fff;
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	margin-bottom:1em;
+	margin-top:1em;
+	font-size: 3.2em;
+}
+
+.image-6c{
+	width:60%;
+	float: left;
+
+}
+.image-6c{
+	width:50%;
+	float: left;
+}
+
+.image-4c{
+	width:40%;
+	float:left;
+}
+
+.boot-padding{
+	padding:0px;
+	margin:0px;
+
+} 
+.shdw{
+		  box-shadow: 0 0 20px 0 #000;
+		  z-index: 2;
+}
+
+/* Common style */
+.grid-effect figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid-effect figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.grid-effect figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid-effect figure figcaption,
+.grid-effect figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.grid-effect figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.grid-effect figure h5 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid-effect figure h5 span {
+	font-weight: 800;
+}
+
+.grid-effect figure h5,
+.grid-effect figure p {
+	margin: 0;
+}
+
+.grid-effect figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+figure.effect-ruby {
+	background-color: #17819c;
+}
+figure.effect-ruby img {
+	opacity: 1;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+figure.effect-ruby:hover img {
+	opacity: 0.2;
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+figure.effect-ruby h5 {
+	opacity: 0;
+	margin-top: 16%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+figure.effect-ruby p {
+	margin: 1em 0 0;
+	padding: 3em;
+	border: 1px solid #fff;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0) scale(1.1);
+	transform: translate3d(0,20px,0) scale(1.1);
+} 
+figure.effect-ruby:hover h5 {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-ruby:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0) scale(1);
+	transform: translate3d(0,0,0) scale(1);
+}
+.info{
+	background:#fff;
+	height:372px;
+}
+
+.info-1{
+	background:#fff;
+	height:412px;			  box-shadow: 0 0 20px 0 #000;
+
+
+}
+.info-2{
+	background:#fff;
+	height:412px;			  box-shadow: 0 0 20px 0 #000;
+
+
+}
+.info-3{
+	background:#fff;
+	height:361px;
+}
+.info-4{
+	background:#fff;
+	height:392px;
+}
+.info h3, .info-1 h3, .info-2 h3, .info-3 h3, .info-4 h3{
+	font-size:2.1em;
+	color:#000;
+	margin:.6em 0;
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	
+}
+.info p, .info-1 p, .info-2 p, .info-3 p, .info-4 p{
+	font-size:1.2em;
+	color:#000;
+	margin:1em 0;
+	/*--agileits --*/
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding:12px;
+	line-height:2;
+}
+.info a, .info-1 a, .info-2 a, .info-3 a, .info-4 a{
+	background:#00bce4;
+	margin:0 auto ;
+	color:#fff;
+	text-align:center;
+	padding:10px 0;
+    font-size: 1em;
+	display:block;
+	width:40%;
+	font-family: 'Open Sans', sans-serif;
+	 font-weight: 400;
+	transition:0.5s all ease;
+	-webkit-transition:0.5s all ease;
+	-moz-transition:0.5s all ease;
+	-o-transition:0.5s all ease;
+	-ms-transition:0.5s all ease;
+	cursor:pointer;
+	
+}
+.designer_img {
+	width:30%;
+	height:auto;
+	float:left;
+	margin-bottom: 60px;
+	margin-top: 10px;
+	margin-right: 5em;
+	
+}
+.end-1{
+}
+.atc_logo{
+	width: 10%;
+	margin: 0 auto;
+}
+.services-cont {
+	width: 75%;
+}
+.split-4{
+	float: left;
+	width: 25%;
+}
+.split-4 img{
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+	-webkit-filter: grayscale(20%);
+	filter: grayscale(20%);
+}
+.split-4 h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 0.8em;
+}
+
+.test{
+	border-top: 0px solid #141414;
+  box-shadow: 0 0 20px 0 #000;
+}
+.end-cont{
+	width: 75%;
+	background: #000;
+	height: 40em;
+}
+.footer-cont{
+	width: 10%;
+	background: #fff;
+	height: 10%;
+	margin-top: 3.2em;
+	padding-top: 0.5em; 
+}
+.close-cont{
+	width: 50%;
+	background: #fff;
+	height: 19em;
+	margin-top: 3.5em;
+}
+.test3{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+}
+.closer-1 h3{
+	color:#000;
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 3.2em;
+	margin-top:0em;
+	margin-bottom: 0.4em;
+}
+.closer-1 h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	display: block;
+	margin: 0 auto;
+	font-size: 2.0em;
+	margin-top: 0.4em;
+	text-align: center;
+
+}
+.closer-1 img{
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+}
+.footer-1 img{
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+}
+.footer-1 h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	display: block;
+	margin: 0 auto;
+	font-size: 0.8em;
+	margin-bottom: 0.25em;
+	text-align: center;
+
+}
+.footer-1 h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	display: block;
+	margin: 0 auto;
+	font-size: 0.6em;
+	margin-bottom: 0.2em;
+	margin-top: 0.1em;
+	text-align: center;
+	font-style: normal;
+	text-transform: uppercase;
+
+}
+
+.social img{
+	display: inline;
+	width: 2.9em;
+}
+.social{
+	margin-top: 1em;
+	text-align: center;
+}
+
+/*-- responsive media queries --*/
+
+@media screen and (max-width:1920px){
+.caption h3{
+	font-size:3em;
+}
+}
+
+@media screen and (max-width:1680px){
+	
+.caption h3 {
+	font-size: 2.6em;
+}
+
+}
+
+/* -- w3layouts --*/
+@media screen and (max-width:1440px){
+.caption h3 {
+	font-size: 2.5em;
+}
+
+figure.effect-ruby img {
+    height: 382px;
+}
+.info {
+    height: 382px;
+}
+}
+
+@media screen and (max-width:1366px){
+.navbar-default .navbar-brand {
+	font-size: 2.8em;
+}
+}
+
+@media screen and (max-width:1280px){
+.navbar-default .navbar-brand {
+	font-size: 2.7em;
+}
+
+.caption h3 {
+	font-size: 2.5em;
+}
+
+}
+
+@media screen and (max-width:1080px){
+.navbar-default .navbar-brand {
+	font-size: 2.5em;
+}
+.caption h3 {
+	font-size: 2em;
+}
+.about p {
+	font-size: 1.1em;
+}
+.about h2 {
+	font-size: 2.3em;
+}
+
+.text-padding{
+padding-top:85px;
+}
+
+.text1-padding{
+padding-top:50px;
+}
+
+.content-our {
+	padding-bottom: 6em;
+}
+/*--agileits --*/
+.content-our h2 {
+	padding: 1.5em 0;
+}
+
+.services img {
+	max-width: 30%;
+	margin-left: 105px;
+}
+.services h4 {
+	font-size: 1.5em;
+}
+.services p {
+	font-size: .9em;
+}
+.footer p {
+   font-size: .9em;
+}
+.footer h4 span {
+   font-size: 1.6em;
+}
+figure.effect-ruby img {
+    height: 350px;
+}
+.info {
+    height: 350px;
+}
+.info h3, .info-1 h3 {
+    margin: .3em 0;
+}
+}
+
+@media screen and (max-width:1050px){
+.caption h3 {
+	font-size: 2em;
+}
+
+}
+
+@media screen and (max-width:1024px){
+.navbar-default .navbar-brand {
+	font-size: 2.5em;
+}
+.caption h3 {
+/* -- w3layouts --*/
+	font-size: 2em;
+}
+.about p {
+	font-size: 1.1em;
+}
+.about h2 {
+	font-size: 2.3em;
+}
+
+.info h3 {
+	font-size: 1.6em;
+	margin: .5em 0;
+}
+.info p {
+	font-size: .9em;
+	margin: .5em 0;
+	
+}
+	
+.services img {
+	max-width: 30%;
+	margin-left: 105px;
+}
+
+.services h4 {
+	font-size: 1.5em;
+}
+
+.services p {
+	font-size: .9em;
+}
+
+.footer h4 span {
+   font-size: 1.6em;
+}
+
+.footer {
+   min-height: 816px;
+}
+
+}
+
+
+@media screen and (max-width:991px){
+.caption h3 {
+   font-size: 1.8em;
+}
+
+.navbar {
+   margin-bottom: 0px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form .navright {
+    margin-top: 14px;
+}
+
+/*--agileits --*/
+.navbar-brand {
+    padding: 0px; 
+}
+
+.about h2 {
+	font-size: 2.1em;
+}
+
+.about p {
+    font-size: 0.9em;
+}
+.info {
+	width: 40%;
+	float: left;
+	padding: 32px;
+	height: 265px;
+}
+
+.image-6c{
+	width:60%;
+	float: left;
+}
+
+.image-4c{
+width:40%;
+float:left;
+}
+
+figure.effect-ruby img {
+    height: 265px;
+}
+
+.mdtext{
+float:left;
+width:60%;
+}
+
+.smtext{
+float:left;
+width:40%;
+}
+
+/* -- w3layouts --*/
+.services{
+	width: 32%;
+	float: left;
+	padding:0 5px;
+}
+.services img {
+	max-width: 30%;
+	margin-left: 67px;
+}
+.figure.effect-ruby p {
+   font-size: 9px;
+}
+.grid-effect figure p {
+   font-size: 50%;
+}
+
+.info p {
+   line-height: 1.8;
+}
+.smtext p {
+   padding: 1em 1em 7.75em 2em;
+}
+.content-our {
+   padding-top: 1em;
+   padding-bottom: 7em;
+}
+
+.info-1 h3 {
+    margin: 0.3em 0;
+ }
+ 
+.info-1 p {
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+}
+
+
+@media screen and (max-width:800px){
+.navbar-default .navbar-brand {
+    padding-top: 4px;
+    padding-left: 6px;
+}
+
+}
+
+
+
+@media screen and (max-width:768px){
+.navbar-default .navbar-toggle {
+    border-color: #00bce4;
+}
+
+}
+
+@media screen and (max-width:736px){
+/*--agileits --*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form .navright {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-toggle {
+    padding: 10px 10px;
+    margin-top: 20px;
+}	
+
+figure .effect-ruby img {
+    height: 240px;
+}
+
+figure .effect-ruby img {
+    height: 250px;
+}
+
+.info {
+	padding: 30px;
+	height: 250px;
+}
+
+.grid-effect figure p {
+    font-size: 50%;
+}
+
+}
+
+@media screen and (max-width:667px){
+
+figure.effect-ruby img {
+    height: 240px;
+}
+
+.info {
+	padding: 16px;
+	height: 240px;
+}
+
+.text1-padding {
+/* -- w3layouts --*/
+    padding-top: 26px;
+}
+
+.info-1 {
+    height: 250px;
+}
+.content-our {
+    padding-top: 0em;
+    padding-bottom: 3em;
+}
+
+.content-our h3 {
+    padding: 1.5em 0;
+	margin:0px
+}
+
+.login-bottom input[type="text"] {
+    width: 99%;
+    margin-top: 5px;
+}
+
+.services {
+    padding: 0 2px;
+}
+
+.login-bottom input[type="text"] {
+    font-size: 13px;
+}
+
+}
+
+@media screen and (max-width:640px){
+
+.info-1 p {
+    padding: 10px;
+}
+.services {
+    width: 33%;
+}
+
+}
+
+@media screen and (max-width:600px){
+.info p{
+    padding: 8px;
+}
+
+figure.effect-ruby p {
+    padding: 2em;
+}
+
+.info-1 p {
+    line-height: 1.6;
+    padding: 10px;
+}
+
+.info-1 h3 {
+    margin: 0.1em 0;
+	/*--agileits --*/
+}
+
+.services {
+    padding: 0px;
+}
+.services p {
+    margin: 1em 0px;
+}
+
+}
+
+
+
+@media screen and (max-width:480px){
+.caption {
+    width: 70%;
+    top: 15%;
+    left: 14%;
+
+}
+.navbar-brand img{
+	width: 10em;
+}
+.about {
+    margin-top: 0em;
+    padding: 12px;
+}
+
+.about h2 {
+   	padding-top: 0em;
+}
+
+.about p{
+	padding:0px;
+}
+
+.image-6c {
+    width: 100%;
+}
+
+.info {
+    padding: 16px;
+	/* -- w3layouts --*/
+    height: 150px;
+	width: 100%;
+}
+
+.info-1 p {
+    margin: 0em;
+   
+}
+
+.grid1, .grid2, .grid4{
+	margin-bottom:5px;
+}
+
+.info-1 h3 {
+    margin: 0.6em 0 0 0;
+}
+
+.mdtext {
+    width: 100%;
+    padding-top: 1px;
+    margin: 0px;
+    height: 165px;
+}
+
+.text1-padding {
+    padding-top: 0px; 
+}
+
+.smtext {
+    float: left;
+    width: 100%;
+	height:130px;
+}
+
+.image-4c {
+    width: 100%;
+    
+}
+
+.login-bottom {
+    width: 80%;
+}
+
+}
+
+
+
+@media screen and (max-width:414px){
+.caption h3 {
+    font-size: 1.6em;
+	margin-top:5px;
+	line-height: 1.6em;
+}
+
+.about p {
+    line-height: 1.6em;
+}
+
+.info {
+/*--agileits --*/
+    height: 175px;
+}
+
+.mdtext {
+    height: 190px;
+}
+
+.services {
+    width: 70%;
+	margin:0 auto;
+	float:none;
+	margin-bottom:25px;
+}
+
+.services img {
+    margin-left: 90px;
+	margin-bottom:0px;
+}
+
+.services h4 {
+    margin:0;
+}
+
+.footer-padding {
+    padding: 25px 15px;
+}
+
+}
+
+
+@media screen and (max-width:384px){
+.mdtext {
+    height: 205px;
+}
+
+.smtext {
+    
+	height:145px;
+}
+/* -- w3layouts --*/
+}
+
+
+
+@media screen and (max-width:375px){
+
+figure.effect-ruby img {
+    height: 225px;
+}
+
+.about p {
+    line-height: 26px;
+}
+
+.info h3 {
+    font-size: 1.4em;
+    margin: .5em 0;
+}
+
+.mdtext {
+    height: 210px;
+}
+
+.smtext {
+    height: 150px;
+}
+
+.login-bottom {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:320px){
+
+.caption h3 {
+    font-size: 1.4em;
+    margin-top: 5px;
+    line-height: 1.4em;
+}
+
+figure.effect-ruby img {
+    height: 215px;
+}
+
+.about p {
+    line-height: 24px;
+}
+
+.grid-effect figure h5 {
+    font-size: 22px;
+}
+
+.info {
+    height: 185px;
+}
+
+.info p {
+    padding: 2px;
+	/*--agileits --*/
+    margin: .2em 0;
+}
+
+.mdtext {
+    height: 225px;
+}
+
+.services img {
+    margin-left: 65px;
+}
+
+#services li {
+    width: 50px;
+    height: 50px;
+}
+}
